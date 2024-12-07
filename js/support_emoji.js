@@ -76,7 +76,7 @@ window._wpemojiSettings = {
     (t.src = e), (t.defer = !0), i.head.appendChild(t);
   }
   "undefined" != typeof Promise &&
-    ((o = "wpEmojiSettingsSupports"),
+    ((o = "wpEmojiSettings supports"),
     (s = ["flag", "emoji"]),
     (n.supports = { everything: !0, everythingExceptFlag: !0 }),
     (e = new Promise(function (e) {
@@ -113,7 +113,7 @@ window._wpemojiSettings = {
                 "));",
               r = new Blob([e], { type: "text/javascript" }),
               a = new Worker(URL.createObjectURL(r), {
-                name: "wpTestEmojiSupports",
+                name: "wpTestEmoji supports",
               });
             return void (a.onmessage = function (e) {
               c((n = e.data)), a.terminate(), t(n);
