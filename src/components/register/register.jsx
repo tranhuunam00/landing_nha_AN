@@ -24,7 +24,7 @@ const EcotradeForm = () => {
       >
         <Form.Item
           style={{ color: "black", fontWeight: "bold" }}
-          name="contact"
+          name="contact2"
           label="Email hoặc số điện thoại"
           rules={[
             { required: true, message: "Vui lòng nhập thông tin liên hệ!" },
