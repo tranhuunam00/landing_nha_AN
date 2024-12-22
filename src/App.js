@@ -24,7 +24,7 @@ const datas = [
     price: "20.000 VNĐ",
     address: "Triết học Mac -Lenin",
     des: `📚 **Danh mục**: Sách giáo trình, sách tham khảo dành cho sinh viên.
-🏠 **Vị trí**: Gần Đại học Quốc gia, Xuân Thủy, Cầu Giấy, thuận tiện cho việc nhận sách.
+🏠 **Vị trí**: Gần Đại học Quốc gia HN, Xuân Thủy, Cầu Giấy, thuận tiện cho việc nhận sách.
 🌟 **Tình trạng**:
 - Sách đã qua sử dụng nhưng còn khá mới (80%).
 - Nội dung không bị rách hay mất trang.
