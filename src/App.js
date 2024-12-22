@@ -14,6 +14,7 @@ import "./App.css";
 import { ImgApps } from "./constant/images";
 import RoomCard from "./components/comment/Comment ";
 import FooterC from "./components/Footer/Footer";
+import EcotradeForm from "./components/register/register";
 
 const { Content, Footer, Sider } = Layout;
 const datas = [
@@ -298,7 +299,9 @@ const App = () => {
             <RoomCard room={roomData3} />
           </div>
         </div>
-
+        <div className="registerP">
+          <EcotradeForm />
+        </div>
         <TeamMembers />
 
         <FooterC />

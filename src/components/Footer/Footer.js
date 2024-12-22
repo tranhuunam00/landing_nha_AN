@@ -1,3 +1,6 @@
+import { Button, Input } from "antd";
+import TextArea from "antd/es/input/TextArea";
+
 // Footer Component
 const FooterC = () => {
   return (
@@ -20,30 +23,18 @@ const FooterC = () => {
 
         <div style={styles.infoSection}>
           <h3>Liên Hệ</h3>
-          <p>Số điện thoại: 0961 766 816</p>
-          <p>Gmail: 0961 766 816</p>
+          <p>Trường Đại học Ngoại Ngữ - Đại học Quốc gia Hà Nội</p>
+          <p>Gmail: haan75d.dtd@gmail.com</p>
+          <p>SĐT: 0325 709 576</p>
         </div>
 
         {/* Hình ảnh */}
         <div style={styles.mediaSection}>
-          <h4>Hình ảnh về ULIS</h4>
-          <div style={styles.imageGallery}>
-            <img
-              src="https://ulis.vnu.edu.vn/files/uploads/2017/03/2844_1545813_198068233726252_1601468544_n.jpg"
-              alt="Hình 1"
-              style={styles.image}
-            />
-            <img
-              src="https://ulis.vnu.edu.vn/files/uploads/2022/10/305437749_5579614905458926_2602933421984147310_n-1024x683.jpg"
-              alt="Hình 2"
-              style={styles.image}
-            />
-            <img
-              src="https://toquoc.mediacdn.vn/280518851207290880/2022/9/29/dai-hoc-ngoai-ngu-2-16644117600561260372599.jpg"
-              alt="Hình 3"
-              style={styles.image}
-            />
-          </div>
+          <h4>Gửi phản hồi đến chúng tôi </h4>
+          <Input placeholder="Họ  tên" />
+          <Input placeholder="Email" />
+          <TextArea rows={4} placeholder="Bình luận" />
+          <Button>Gửi</Button>
         </div>
 
         {/* Video */}
