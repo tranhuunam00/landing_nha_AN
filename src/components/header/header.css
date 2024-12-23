@@ -17,3 +17,7 @@
   width: 100vw;
   font-weight: 700;
 }
+.logo {
+  margin-left: 15%;
+  min-width: 50px;
+}

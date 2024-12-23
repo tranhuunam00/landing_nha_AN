@@ -6,21 +6,6 @@ const FooterC = () => {
   return (
     <footer style={styles.footer}>
       <div style={styles.container}>
-        {/* Thông tin giới thiệu */}
-        <div style={styles.infoSection}>
-          <h3>ULIS 2025</h3>
-          <p>
-            ULISERS ơi, bạn đang băn khoăn vì tìm kiếm những giải pháp giúp tiết
-            kiệm tối ưu chi phí mua sắm? Hay đang loay hoay tìm kiếm một
-            <strong> nền tảng uy tín </strong> để gửi gắm những món đồ không còn
-            sử dụng nhưng vẫn có giá trị?
-          </p>
-          <p>
-            Nếu câu trả lời là có thì <strong> “EcoTrade”</strong> chính là giải
-            pháp cho bạn.
-          </p>
-        </div>
-
         <div style={styles.infoSection}>
           <h3>Liên Hệ</h3>
           <p>Trường Đại học Ngoại Ngữ - Đại học Quốc gia Hà Nội</p>

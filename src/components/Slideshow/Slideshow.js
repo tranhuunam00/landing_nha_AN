@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./Slideshow.css";
+import { ImgApps } from "../../constant/images";
 
 const images = [
+  ImgApps.a1,
+  ImgApps.a2,
   "https://vcdn1-vnexpress.vnecdn.net/2023/08/22/ngoai-ngu-7513-1692670691.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=4TM-Of8vcg6pGJn4AkLfiA",
-  "https://ulis.vnu.edu.vn/files/uploads/2022/01/ULISbyLienV4-Copy-1024x683.jpg",
-  "https://thegioianh.diendandoanhnghiep.vn/wp-content/uploads/2024/01/20b-5.jpg",
 ];
 
 function Slideshow() {

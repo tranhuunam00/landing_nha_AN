@@ -15,6 +15,7 @@ import { ImgApps } from "./constant/images";
 import RoomCard from "./components/comment/Comment ";
 import FooterC from "./components/Footer/Footer";
 import EcotradeForm from "./components/register/register";
+import Introduction from "./components/intro/Introduction";
 
 const { Content, Footer, Sider } = Layout;
 const datas = [
@@ -210,9 +211,13 @@ const App = () => {
     <div className="full">
       <Layout>
         <HeaderC />
+        <div id="slideshow"></div>
         <Slideshow />
+        <div id="intro"></div>
+        <h1 style={{ textAlign: "center" }}>Giới thiệu</h1>
+
+        <Introduction />
         <div className="visual">
-          <h1 style={{ textAlign: "center" }}>Tính năng nổi bật</h1>
           <div className="card-cont">
             <Card
               image={
@@ -275,7 +280,9 @@ const App = () => {
           </div>
         </div>
 
-        <h1 style={{ textAlign: "center" }}>Bộ Lọc</h1>
+        <h1 id="product" style={{ textAlign: "center" }}>
+          Trao đổi
+        </h1>
         <div className="product">
           <Filter />
           <div
@@ -290,8 +297,11 @@ const App = () => {
           </div>
         </div>
 
-        <div className="comment">
-          <h1>Bình Luận</h1>
+        <div id="members"></div>
+        <TeamMembers />
+
+        <div id="comment" className="comment">
+          <h1>Phản hồi</h1>
 
           <div className="comment-cont">
             <RoomCard room={roomData} />
@@ -299,14 +309,14 @@ const App = () => {
             <RoomCard room={roomData3} />
           </div>
         </div>
-        <div className="registerP">
+        <div id="register" className="registerP">
           <EcotradeForm />
         </div>
-        <TeamMembers />
 
+        <div id="footer"></div>
         <FooterC />
         <Footer style={{ textAlign: "center" }}>
-          ULIS 2024 ©{new Date().getFullYear()} Created by ULIS TE
+          Ecotradeulis©{new Date().getFullYear()} Created by Ecotradeulis
         </Footer>
       </Layout>
     </div>

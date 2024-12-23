@@ -9,6 +9,8 @@ import hoangankhanh from "../assets/images/hoangankhanh.jpg";
 import lehoaian from "../assets/images/lehoaian.jpg";
 import nguyendieuan from "../assets/images/nguyendieuan.JPG";
 import thanhan from "../assets/images/thanhan.jpg";
+import a1 from "../assets/images/a1.jpg";
+import a2 from "../assets/images/a2.jpg";
 
 export const ImgApps = {
   image1,
@@ -22,4 +24,6 @@ export const ImgApps = {
   lehoaian,
   nguyendieuan,
   thanhan,
+  a1,
+  a2,
 };
