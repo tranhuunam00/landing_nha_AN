@@ -4,8 +4,8 @@ import { ImgApps } from "../../constant/images";
 
 const images = [
   ImgApps.a1,
-  ImgApps.a2,
-  "https://vcdn1-vnexpress.vnecdn.net/2023/08/22/ngoai-ngu-7513-1692670691.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=4TM-Of8vcg6pGJn4AkLfiA",
+  // ImgApps.a2,
+  // "https://vcdn1-vnexpress.vnecdn.net/2023/08/22/ngoai-ngu-7513-1692670691.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=4TM-Of8vcg6pGJn4AkLfiA",
 ];
 
 function Slideshow() {

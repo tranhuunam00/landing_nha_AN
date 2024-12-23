@@ -11,6 +11,10 @@ const FooterC = () => {
           <p>Trường Đại học Ngoại Ngữ - Đại học Quốc gia Hà Nội</p>
           <p>Gmail: haan75d.dtd@gmail.com</p>
           <p>SĐT: 0325 709 576</p>
+
+          <h4 style={{ fontSize: "20px" }}>
+            EcoTrade đồ cũ giá trị mới - kết nối sinh viên
+          </h4>
         </div>
 
         {/* Hình ảnh */}

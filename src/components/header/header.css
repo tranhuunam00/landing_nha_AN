@@ -5,8 +5,8 @@
   position: fixed;
   z-index: 10;
   width: 100%;
-  background: linear-gradient(to bottom, #fde1d9, #f9c2c2);
-  height: 80px;
+  background: linear-gradient(to top, #fde1d93d, #f9c2c2);
+  height: 140px;
   font-family: "Montserrat", sans-serif !important;
 }
 .header .ant-layout-header {
@@ -19,5 +19,5 @@
 }
 .logo {
   margin-left: 15%;
-  min-width: 50px;
+  min-width: 80px;
 }

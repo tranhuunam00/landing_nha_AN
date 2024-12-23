@@ -3,56 +3,81 @@ import { Header } from "antd/es/layout/layout";
 import "./header.css";
 import { ImgApps } from "../../constant/images";
 
+const addHighlightEffect = (id) => {
+  const target = document.getElementById(id);
+  if (target) {
+    target.classList.add("highlight");
+    setTimeout(() => {
+      target.classList.remove("highlight");
+    }, 1000); // Thời gian khớp với animation 1s
+  }
+};
+
 const items1 = [
   {
     key: "Trang chủ",
     label: "Trang chủ",
-    onClick: () =>
-      document
-        .getElementById("slideshow")
-        .scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "slideshow";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
   {
     key: "Giới thiệu",
     label: "Giới thiệu",
-    onClick: () =>
-      document.getElementById("intro").scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "intro";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
   {
     key: "Trao đổi",
     label: "Trao đổi",
-    onClick: () =>
-      document.getElementById("product").scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "product";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
-
   {
     key: "Đội ngũ thực hiện",
     label: "Đội ngũ thực hiện",
-    onClick: () =>
-      document.getElementById("members").scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "members";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
   {
     key: "Phản hồi",
     label: "Phản hồi",
-    onClick: () =>
-      document.getElementById("comment").scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "comment";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
   {
     key: "Đăng kí",
     label: "Đăng kí",
-    onClick: () =>
-      document
-        .getElementById("register")
-        .scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "register";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
   {
     key: "Liên hệ",
     label: "Liên hệ",
-    onClick: () =>
-      document.getElementById("footer").scrollIntoView({ behavior: "smooth" }),
+    onClick: () => {
+      const targetId = "footer";
+      document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      addHighlightEffect(targetId);
+    },
   },
 ];
-
 const HeaderC = () => {
   return (
     <Header
@@ -68,7 +93,7 @@ const HeaderC = () => {
         <img
           src={ImgApps.logo0}
           alt="Logo"
-          style={{ height: "70px", objectFit: "contain" }}
+          style={{ height: "120px", width: "120px", objectFit: "contain" }}
         />
       </div>
 

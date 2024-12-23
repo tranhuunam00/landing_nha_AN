@@ -131,20 +131,6 @@ const datas = [
     category: "đồ gia dụng",
     color: "yellow",
   },
-  {
-    image:
-      "https://thumuadocuthanhnam.com/wp-content/uploads/2024/11/z6043916925277_a64dff3a165518ab2bf4ab14191aaaf7.jpg",
-    price: "150.000 VNĐ",
-    address: "Ấm đun siêu tốc",
-    des: `🍴 **Danh mục**: Ấm đun siêu tốc, công cụ cần thiết cho mọi gia đình.
-🏠 **Vị trí**: Gần công viên Nghĩa Đô, Cầu Giấy.
-🌟 **Tình trạng**:
-- Đã qua sử dụng, tốc độ đun nước vẫn nhanh và hiệu quả.
-- Thiết kế nhỏ gọn, không chiếm diện tích.
-💥 **Điểm nổi bật**: Giá siêu rẻ, bảo hành 1 tháng từ người bán.`,
-    category: "đồ gia dụng",
-    color: "yellow",
-  },
 ];
 
 const roomData = {
@@ -213,19 +199,19 @@ const App = () => {
         <HeaderC />
         <div id="slideshow"></div>
         <Slideshow />
-        <div id="intro"></div>
-        <h1 style={{ textAlign: "center" }}>Giới thiệu</h1>
+        <div id="intro">
+          <h1 style={{ textAlign: "center" }}>Giới thiệu</h1>
 
-        <Introduction />
-        <div className="visual">
-          <div className="card-cont">
-            <Card
-              image={
-                "https://sonca.vn/wp-content/uploads/2023/11/Van-phong-pham-Kon-Tum-Cua-hang-van-phong-pham-Son-Ca-chuyen-ban-online-uy-tin-so-1-tai-Kon-Tum.png"
-              }
-              price={"ULISERS dễ dàng trao đổi và mua bán đồ cũ"}
-              address={"Đăng kí đồ"}
-              des={`🛍️ **Địa điểm**: Đường Nguyễn Cảnh Dị, quận Thanh Xuân, Hà Nội.
+          <Introduction />
+          <div className="visual">
+            <div className="card-cont">
+              <Card
+                image={
+                  "https://sonca.vn/wp-content/uploads/2023/11/Van-phong-pham-Kon-Tum-Cua-hang-van-phong-pham-Son-Ca-chuyen-ban-online-uy-tin-so-1-tai-Kon-Tum.png"
+                }
+                price={"ULISERS dễ dàng trao đổi và mua bán đồ cũ"}
+                address={"Đăng kí đồ"}
+                des={`🛍️ **Địa điểm**: Đường Nguyễn Cảnh Dị, quận Thanh Xuân, Hà Nội.
 🌟 **Đặc điểm**:
 - Không gian giao lưu mua bán đồ cũ dành riêng cho sinh viên ULIS.
 - Các mặt hàng phổ biến: sách, đồ dùng học tập, quần áo, đồ gia dụng.
@@ -235,18 +221,18 @@ const App = () => {
 🤝 **Hoạt động**:
 - Đăng ký đồ cần bán/mua qua ứng dụng hoặc tại điểm giao dịch.
 - Đổi đồ hoặc thanh toán trực tiếp nhanh chóng, tiện lợi.`}
-            />
+              />
 
-            {/* Ký túc xá Ngoại ngữ */}
-            <Card
-              image={
-                "https://codesrevolvewordpress.s3.us-west-2.amazonaws.com/revolveai/2023/07/27103524/ai-based-recommendation-systems.png"
-              }
-              price={
-                "Mua sắm, trao đổi những món đồ với giá cả hợp lý, tiết kiệm"
-              }
-              address={"AI đề xuất theo nhu cầu"}
-              des={`🤖 **Hệ thống AI hỗ trợ**: Đưa ra gợi ý các món đồ phù hợp với nhu cầu cá nhân.
+              {/* Ký túc xá Ngoại ngữ */}
+              <Card
+                image={
+                  "https://codesrevolvewordpress.s3.us-west-2.amazonaws.com/revolveai/2023/07/27103524/ai-based-recommendation-systems.png"
+                }
+                price={
+                  "Mua sắm, trao đổi những món đồ với giá cả hợp lý, tiết kiệm"
+                }
+                address={"AI đề xuất theo nhu cầu"}
+                des={`🤖 **Hệ thống AI hỗ trợ**: Đưa ra gợi ý các món đồ phù hợp với nhu cầu cá nhân.
 🏠 **Địa điểm**: Khu vực Trường Đại học Ngoại ngữ, Phạm Văn Đồng, quận Cầu Giấy, Hà Nội.
 🛍️ **Đồ trao đổi/mua bán**:
 - Sách giáo trình, tài liệu học tập.
@@ -256,17 +242,17 @@ const App = () => {
 - Giá cả hợp lý, tiết kiệm cho sinh viên.
 - Tính năng đề xuất thông minh, giúp tìm kiếm nhanh chóng.
 - Giao dịch dễ dàng, an toàn trong khuôn viên trường.`}
-            />
+              />
 
-            <Card
-              image={
-                "https://subiz.com.vn/blog/wp-content/uploads/2022/11/subiz-bi-quyet-telesale-e1667384392973.png"
-              }
-              price={
-                "Đội ngũ nhiệt tình, trách nhiệm, mang lại cho các bạn sự tin tưởng"
-              }
-              address={"Đánh giá, phản hồi 24-7"}
-              des={`📞 **Hỗ trợ 24/7**: Đội ngũ luôn sẵn sàng lắng nghe và giải quyết mọi thắc mắc.
+              <Card
+                image={
+                  "https://subiz.com.vn/blog/wp-content/uploads/2022/11/subiz-bi-quyet-telesale-e1667384392973.png"
+                }
+                price={
+                  "Đội ngũ nhiệt tình, trách nhiệm, mang lại cho các bạn sự tin tưởng"
+                }
+                address={"Đánh giá, phản hồi 24-7"}
+                des={`📞 **Hỗ trợ 24/7**: Đội ngũ luôn sẵn sàng lắng nghe và giải quyết mọi thắc mắc.
 🏠 **Địa chỉ**: Đường Xuân Thủy, quận Cầu Giấy, Hà Nội.
 🌟 **Gần các tiện ích**: 
 - Các trường đại học lớn (ĐH Sư phạm, ĐH Quốc gia, ĐH Thương mại).
@@ -276,29 +262,30 @@ const App = () => {
 - "Môi trường thân thiện, cảm giác rất an toàn."
 🤝 **Cam kết**:
 - Đáp ứng yêu cầu nhanh chóng, nâng cao trải nghiệm người dùng.`}
-            />
+              />
+            </div>
+          </div>
+        </div>
+        <div id="product">
+          <h1 style={{ textAlign: "center" }}>Trao đổi</h1>
+          <div className="product">
+            <Filter />
+            <div
+              style={{
+                marginTop: "30px",
+              }}
+              className="card-cont"
+            >
+              {datas.map((data) => (
+                <Card {...data} />
+              ))}
+            </div>
           </div>
         </div>
 
-        <h1 id="product" style={{ textAlign: "center" }}>
-          Trao đổi
-        </h1>
-        <div className="product">
-          <Filter />
-          <div
-            style={{
-              marginTop: "30px",
-            }}
-            className="card-cont"
-          >
-            {datas.map((data) => (
-              <Card {...data} />
-            ))}
-          </div>
+        <div id="members">
+          <TeamMembers />
         </div>
-
-        <div id="members"></div>
-        <TeamMembers />
 
         <div id="comment" className="comment">
           <h1>Phản hồi</h1>
@@ -313,11 +300,12 @@ const App = () => {
           <EcotradeForm />
         </div>
 
-        <div id="footer"></div>
-        <FooterC />
-        <Footer style={{ textAlign: "center" }}>
-          Ecotradeulis©{new Date().getFullYear()} Created by Ecotradeulis
-        </Footer>
+        <div id="footer">
+          <FooterC />
+          <Footer style={{ textAlign: "center" }}>
+            Ecotradeulis©{new Date().getFullYear()} Created by Ecotradeulis
+          </Footer>
+        </div>
       </Layout>
     </div>
   );
