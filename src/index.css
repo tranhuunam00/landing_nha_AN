@@ -2,10 +2,10 @@
 
 body {
   margin: 0;
-  font-family: "Lobster", "Montserrat", sans-serif !important;
+  /* font-family: "Lobster", "Montserrat", sans-serif !important; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 code {
@@ -26,7 +26,7 @@ button:hover {
   font-family: "Montserrat", sans-serif !important;
 }
 .ant-layout {
-  font-family: "Lobster", "Montserrat", sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 .highlight {
   animation: shakeEffect 5s ease-in-out;

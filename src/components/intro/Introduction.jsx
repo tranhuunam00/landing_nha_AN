@@ -16,7 +16,13 @@ const Introduction = () => {
         ></iframe>
       </div>
       <div className="text-section">
-        <p style={{ fontWeight: "500", color: "black" }}>
+        <p
+          style={{
+            fontWeight: "500",
+            color: "black",
+            fontFamily: "Montserrat",
+          }}
+        >
           ULISERS ơi, bạn đang băn khoăn vì tìm kiếm những giải pháp giúp tiết
           kiệm tối ưu chi phí mua sắm? Hay đang loay hoay tìm kiếm một nền tảng
           uy tín để gửi gắm những món đồ không còn sử dụng nhưng vẫn có giá trị?

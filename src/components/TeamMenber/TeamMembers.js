@@ -5,7 +5,7 @@ import { ImgApps } from "../../constant/images";
 const members = [
   {
     id: 1,
-    name: "Bùi Thị Mai Anh - Khoa SPTA - 23E19",
+    name: "Bùi Thị Mai Anh - Khoa SPTA",
     image: ImgApps.buimaianh,
   },
   {
@@ -20,12 +20,12 @@ const members = [
   },
   {
     id: 4,
-    name: "Lê Hoài An - SPTA - 23E16",
+    name: "Lê Hoài An - SPTA",
     image: ImgApps.lehoaian,
   },
   {
     id: 5,
-    name: "Nguyễn Diệu An - SPTA - 23E3",
+    name: "Nguyễn Diệu An - SPTA",
     image: ImgApps.nguyendieuan,
   },
   {

@@ -54,6 +54,7 @@ const styles = {
   mediaSection: {
     flex: "1 1 300px",
     textAlign: "center",
+    
   },
   videoSection: {
     flex: "1 1 300px",

@@ -11,6 +11,7 @@ import nguyendieuan from "../assets/images/nguyendieuan.JPG";
 import thanhan from "../assets/images/thanhan.jpg";
 import a1 from "../assets/images/a1.jpg";
 import a2 from "../assets/images/a2.jpg";
+import home from "../assets/images/home.png";
 
 export const ImgApps = {
   image1,
@@ -26,4 +27,5 @@ export const ImgApps = {
   thanhan,
   a1,
   a2,
+  home,
 };

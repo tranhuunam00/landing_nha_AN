@@ -203,68 +203,6 @@ const App = () => {
           <h1 style={{ textAlign: "center" }}>Giới thiệu</h1>
 
           <Introduction />
-          <div className="visual">
-            <div className="card-cont">
-              <Card
-                image={
-                  "https://sonca.vn/wp-content/uploads/2023/11/Van-phong-pham-Kon-Tum-Cua-hang-van-phong-pham-Son-Ca-chuyen-ban-online-uy-tin-so-1-tai-Kon-Tum.png"
-                }
-                price={"ULISERS dễ dàng trao đổi và mua bán đồ cũ"}
-                address={"Đăng kí đồ"}
-                des={`🛍️ **Địa điểm**: Đường Nguyễn Cảnh Dị, quận Thanh Xuân, Hà Nội.
-🌟 **Đặc điểm**:
-- Không gian giao lưu mua bán đồ cũ dành riêng cho sinh viên ULIS.
-- Các mặt hàng phổ biến: sách, đồ dùng học tập, quần áo, đồ gia dụng.
-📚 **Ưu điểm**:
-- Giá cả hợp lý, hỗ trợ sinh viên tiết kiệm chi phí.
-- Cơ hội tái sử dụng đồ cũ, bảo vệ môi trường.
-🤝 **Hoạt động**:
-- Đăng ký đồ cần bán/mua qua ứng dụng hoặc tại điểm giao dịch.
-- Đổi đồ hoặc thanh toán trực tiếp nhanh chóng, tiện lợi.`}
-              />
-
-              {/* Ký túc xá Ngoại ngữ */}
-              <Card
-                image={
-                  "https://codesrevolvewordpress.s3.us-west-2.amazonaws.com/revolveai/2023/07/27103524/ai-based-recommendation-systems.png"
-                }
-                price={
-                  "Mua sắm, trao đổi những món đồ với giá cả hợp lý, tiết kiệm"
-                }
-                address={"AI đề xuất theo nhu cầu"}
-                des={`🤖 **Hệ thống AI hỗ trợ**: Đưa ra gợi ý các món đồ phù hợp với nhu cầu cá nhân.
-🏠 **Địa điểm**: Khu vực Trường Đại học Ngoại ngữ, Phạm Văn Đồng, quận Cầu Giấy, Hà Nội.
-🛍️ **Đồ trao đổi/mua bán**:
-- Sách giáo trình, tài liệu học tập.
-- Đồ dùng cá nhân, đồ gia dụng cũ.
-- Quần áo, phụ kiện.
-🌟 **Ưu điểm**:
-- Giá cả hợp lý, tiết kiệm cho sinh viên.
-- Tính năng đề xuất thông minh, giúp tìm kiếm nhanh chóng.
-- Giao dịch dễ dàng, an toàn trong khuôn viên trường.`}
-              />
-
-              <Card
-                image={
-                  "https://subiz.com.vn/blog/wp-content/uploads/2022/11/subiz-bi-quyet-telesale-e1667384392973.png"
-                }
-                price={
-                  "Đội ngũ nhiệt tình, trách nhiệm, mang lại cho các bạn sự tin tưởng"
-                }
-                address={"Đánh giá, phản hồi 24-7"}
-                des={`📞 **Hỗ trợ 24/7**: Đội ngũ luôn sẵn sàng lắng nghe và giải quyết mọi thắc mắc.
-🏠 **Địa chỉ**: Đường Xuân Thủy, quận Cầu Giấy, Hà Nội.
-🌟 **Gần các tiện ích**: 
-- Các trường đại học lớn (ĐH Sư phạm, ĐH Quốc gia, ĐH Thương mại).
-- Hệ thống quán ăn, dịch vụ giặt là trong khu vực.
-👍 **Đánh giá từ người dùng**:
-- "Dịch vụ nhanh chóng, hỗ trợ tận tình."
-- "Môi trường thân thiện, cảm giác rất an toàn."
-🤝 **Cam kết**:
-- Đáp ứng yêu cầu nhanh chóng, nâng cao trải nghiệm người dùng.`}
-              />
-            </div>
-          </div>
         </div>
         <div id="product">
           <h1 style={{ textAlign: "center" }}>Trao đổi</h1>

@@ -5,19 +5,35 @@
   position: fixed;
   z-index: 10;
   width: 100%;
-  background: linear-gradient(to top, #fde1d93d, #f9c2c2);
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../assets/images/a2.jpg");
   height: 180px;
+  background-blend-mode: overlay;
+  background-size: auto 100%;
   font-family: "Montserrat", sans-serif !important;
 }
 .header .ant-layout-header {
-  background: white;
+  background: transparent;
 }
 .ant-menu-light {
-  background: linear-gradient(to bottom, #fde1d9, #f9c2c2);
+  background: transparent;
+  font-size: 18px;
+}
+.ant-menu-light {
+  background: linear-gradient(
+    to bottom,
+    #fde1d9,
+    #f9c2c2,
+    url("../../assets/images/a2.jpg")
+  );
   width: 100vw;
   font-weight: 700;
 }
 .logo {
-  margin-left: 15%;
+  margin-left: 10%;
   min-width: 80px;
 }
