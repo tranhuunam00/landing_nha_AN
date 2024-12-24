@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TeamMembers.css";
 import { ImgApps } from "../../constant/images";
 
@@ -36,6 +36,16 @@ const members = [
 ];
 
 function TeamMembers() {
+  const [selectedMember, setSelectedMember] = useState(null);
+
+  const handleCardClick = (member) => {
+    setSelectedMember(member);
+  };
+
+  const closePopup = () => {
+    setSelectedMember(null);
+  };
+
   return (
     <div className="TeamMembers">
       <h1 style={{ textAlign: "center", marginTop: "30px" }}>
@@ -43,12 +53,25 @@ function TeamMembers() {
       </h1>
       <div className="team-container">
         {members.map((member) => (
-          <div key={member.id} className="team-card">
+          <div
+            key={member.id}
+            className="team-card"
+            onClick={() => handleCardClick(member)}
+          >
             <img src={member.image} alt={member.name} />
             <div className="team-name">{member.name}</div>
           </div>
         ))}
       </div>
+
+      {selectedMember && (
+        <div className="popup-overlay" onClick={closePopup}>
+          <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+            <img src={selectedMember.image} alt={selectedMember.name} />
+            <h2>{selectedMember.name}</h2>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
