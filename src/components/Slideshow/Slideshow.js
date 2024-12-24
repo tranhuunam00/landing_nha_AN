@@ -26,6 +26,11 @@ function Slideshow() {
           className={`slide ${index === currentIndex ? "active" : ""}`}
         >
           <img src={image} alt={`Slide ${index + 1}`} />
+          {index === currentIndex && (
+            <div className="overlay-text">
+              EcoTrade đồ cũ giá trị mới - kết nối sinh viên
+            </div>
+          )}
         </div>
       ))}
     </div>

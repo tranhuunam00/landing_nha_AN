@@ -93,7 +93,7 @@ const HeaderC = () => {
         <img
           src={ImgApps.logo0}
           alt="Logo"
-          style={{ height: "120px", width: "120px", objectFit: "contain" }}
+          style={{ height: "170px", width: "170px", objectFit: "contain" }}
         />
       </div>
 

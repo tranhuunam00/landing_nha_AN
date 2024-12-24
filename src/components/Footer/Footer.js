@@ -25,20 +25,6 @@ const FooterC = () => {
           <TextArea rows={4} placeholder="Bình luận" />
           <Button>Gửi</Button>
         </div>
-
-        {/* Video */}
-        <div style={styles.videoSection}>
-          <iframe
-            width="100%"
-            height="250"
-            src="https://www.youtube.com/embed/GXeSJqGsdcQ"
-            title="Tôi yêu ULIS là bởi..."
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
       </div>
     </footer>
   );
