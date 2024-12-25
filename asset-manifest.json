@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/landing_nha_AN/static/css/main.9386ea76.css",
-    "main.js": "/landing_nha_AN/static/js/main.35ae1c42.js",
+    "main.css": "/landing_nha_AN/static/css/main.4efdd191.css",
+    "main.js": "/landing_nha_AN/static/js/main.828bb7d0.js",
     "static/js/488.22357f90.chunk.js": "/landing_nha_AN/static/js/488.22357f90.chunk.js",
     "static/media/nguyendieuan.JPG": "/landing_nha_AN/static/media/nguyendieuan.d93c675944ad0192749e.JPG",
     "static/media/home.png": "/landing_nha_AN/static/media/home.b400e574411ee9d6a849.png",
     "static/media/caovananh.JPG": "/landing_nha_AN/static/media/caovananh.03c286242fdbbebebb42.JPG",
+    "static/media/minhAn.jpg": "/landing_nha_AN/static/media/minhAn.236559204601f840e7a6.jpg",
     "static/media/buimaianh.jpg": "/landing_nha_AN/static/media/buimaianh.fe8a5b26d0709de2bd4a.jpg",
     "static/media/a2.jpg": "/landing_nha_AN/static/media/a2.4ff03f87aca3f74a3671.jpg",
     "static/media/lehoaian.jpg": "/landing_nha_AN/static/media/lehoaian.bf07058b3214623e4ed8.jpg",
@@ -18,12 +19,12 @@
     "static/media/logo0.jpg": "/landing_nha_AN/static/media/logo0.08fac7045b5083858ce2.jpg",
     "static/media/hoangankhanh.jpg": "/landing_nha_AN/static/media/hoangankhanh.b450f92ae33c18f75edf.jpg",
     "index.html": "/landing_nha_AN/index.html",
-    "main.9386ea76.css.map": "/landing_nha_AN/static/css/main.9386ea76.css.map",
-    "main.35ae1c42.js.map": "/landing_nha_AN/static/js/main.35ae1c42.js.map",
+    "main.4efdd191.css.map": "/landing_nha_AN/static/css/main.4efdd191.css.map",
+    "main.828bb7d0.js.map": "/landing_nha_AN/static/js/main.828bb7d0.js.map",
     "488.22357f90.chunk.js.map": "/landing_nha_AN/static/js/488.22357f90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9386ea76.css",
-    "static/js/main.35ae1c42.js"
+    "static/css/main.4efdd191.css",
+    "static/js/main.828bb7d0.js"
   ]
 }
