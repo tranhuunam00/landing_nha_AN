@@ -9,6 +9,8 @@ import hoangankhanh from "../assets/images/hoangankhanh.jpg";
 import lehoaian from "../assets/images/lehoaian.jpg";
 import nguyendieuan from "../assets/images/nguyendieuan.JPG";
 import thanhan from "../assets/images/thanhan.jpg";
+import minhAn from "../assets/images/minhAn.jpg";
+
 import a1 from "../assets/images/a1.jpg";
 import a2 from "../assets/images/a2.jpg";
 import home from "../assets/images/home.png";
@@ -28,4 +30,5 @@ export const ImgApps = {
   a1,
   a2,
   home,
+  minhAn,
 };

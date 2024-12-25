@@ -33,6 +33,12 @@ const members = [
     name: "Nguyễn Thanh Hà An - NN&VH Nhật Bản",
     image: ImgApps.thanhan,
   },
+
+  {
+    id: 7,
+    name: "Vũ Minh An - NN&VH Nga",
+    image: ImgApps.minhAn,
+  },
 ];
 
 function TeamMembers() {
