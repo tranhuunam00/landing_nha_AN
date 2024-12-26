@@ -35,7 +35,7 @@ const styles = {
   footer: {
     marginTop: "50px",
     padding: "20px 0px",
-    background: "linear-gradient(to top right, #c0f1a3, #9cbdf0, #ffb1a3)",
+    background: "transparent",
     color: "#000",
     borderTop: "2px solid #ddd",
   },
@@ -54,7 +54,6 @@ const styles = {
   mediaSection: {
     flex: "1 1 300px",
     textAlign: "center",
-    
   },
   videoSection: {
     flex: "1 1 300px",

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Introduction.css"; // Import CSS for styling
+import { ImgApps } from "../../constant/images";
 
 const Introduction = () => {
   return (
@@ -8,7 +9,7 @@ const Introduction = () => {
         <iframe
           width="100%"
           height="315"
-          src="https://www.youtube.com/embed/_26r-nDC3iw"
+          src={ImgApps.CNTTTT}
           title="YouTube video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

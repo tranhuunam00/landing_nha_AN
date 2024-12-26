@@ -14,6 +14,7 @@ import minhAn from "../assets/images/minhAn.jpg";
 import a1 from "../assets/images/a1.jpg";
 import a2 from "../assets/images/a2.jpg";
 import home from "../assets/images/home.png";
+import CNTTTT from "../assets/images/CNTTTT.mp4";
 
 export const ImgApps = {
   image1,
@@ -31,4 +32,5 @@ export const ImgApps = {
   a2,
   home,
   minhAn,
+  CNTTTT,
 };
