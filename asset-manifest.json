@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/landing_nha_AN/static/css/main.4efdd191.css",
-    "main.js": "/landing_nha_AN/static/js/main.828bb7d0.js",
+    "main.js": "/landing_nha_AN/static/js/main.a77e7297.js",
     "static/js/488.22357f90.chunk.js": "/landing_nha_AN/static/js/488.22357f90.chunk.js",
+    "static/media/CNTTTT.mp4": "/landing_nha_AN/static/media/CNTTTT.8072f357d557415c0c41.mp4",
     "static/media/nguyendieuan.JPG": "/landing_nha_AN/static/media/nguyendieuan.d93c675944ad0192749e.JPG",
     "static/media/home.png": "/landing_nha_AN/static/media/home.b400e574411ee9d6a849.png",
     "static/media/caovananh.JPG": "/landing_nha_AN/static/media/caovananh.03c286242fdbbebebb42.JPG",
@@ -20,11 +21,11 @@
     "static/media/hoangankhanh.jpg": "/landing_nha_AN/static/media/hoangankhanh.b450f92ae33c18f75edf.jpg",
     "index.html": "/landing_nha_AN/index.html",
     "main.4efdd191.css.map": "/landing_nha_AN/static/css/main.4efdd191.css.map",
-    "main.828bb7d0.js.map": "/landing_nha_AN/static/js/main.828bb7d0.js.map",
+    "main.a77e7297.js.map": "/landing_nha_AN/static/js/main.a77e7297.js.map",
     "488.22357f90.chunk.js.map": "/landing_nha_AN/static/js/488.22357f90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4efdd191.css",
-    "static/js/main.828bb7d0.js"
+    "static/js/main.a77e7297.js"
   ]
 }
